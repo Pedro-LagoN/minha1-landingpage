@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family:'Kode Mono' ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+}
+header{/* cabeçalho basico */
+    background-color:green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+hr{
+    
+    background-color: black;
+   height: 5px;
+}
+ header a{/* cabeçalho basico */
+    color: yellow;
+    padding: 10px;
+    text-decoration: none;
+}
+#inicio{
+    color: green;
+    text-align: center;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* topo, direita, baixo, esquerda : as ordens do padding em uma unica coisa */
+    padding: 100px 90px 100px 90px ;
+    font-size: 18px;
+}
+h1,h2,h3{
+    font-size: 50px;
+}
+ section a{
+    color: green;
+    text-decoration: none;
+}
+
+#comoajudar{
+    background-color:green;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    
+    padding:200px; /*100px 90px 100px 90px;*/
+    color: yellow;
+  
+}
+#contatos{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;;
+    color: green;
+    padding: 200px ;
+}
+input{
+    background-color: green;
+    color: yellow;
+    width: 150px;
+    height: 90px;
+    border-radius: 10%;
+    
+}
+footer{
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: space-between;
+    padding: 10px; 
+    background-color: green;
+    color: yellow;
+    font-size: 20px;
+}
